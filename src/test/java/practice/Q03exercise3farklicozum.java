@@ -11,7 +11,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
 
-public class exercise3farklicozum {
+public class Q03exercise3farklicozum {
 
     /* ...Exercise3...
    go to url : https://www.techlistic.com/p/selenium-practice-form.html

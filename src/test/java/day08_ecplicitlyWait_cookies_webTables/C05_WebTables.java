@@ -38,7 +38,7 @@ public class C05_WebTables extends TestBase {
             satirNo++;
         }
 
-        //6. Web table’daki sutun sayisinin 13 olduğunu test edin
+        //6. Web table’daki 3. satirin sutun sayisinin 13 olduğunu test edin
         List<WebElement> ucuncuSatirDatalarList =
                 driver.findElements(By.xpath("//tbody/tr[3]/td"));
         Assert.assertEquals(13,ucuncuSatirDatalarList.size());
@@ -58,6 +58,8 @@ public class C05_WebTables extends TestBase {
         //8.Satir ve sutun sayisini parametre olarak alip,
         //  hucredeki bilgiyi döndüren bir method olusturun
         System.out.println("istenen data : \n"+getData(3, 5));
+
+
         // 9 - 7.satirin,9.datasinin "Shoes" icerdigini test edin
 
         String actualData=getData(7,9);

@@ -7,9 +7,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
-import java.util.Random;
 
-public class exercise4{
+public class Q04exercise4 {
 
          /* ...Exercise4...
             Navigate to  https://testpages.herokuapp.com/styled/index.html

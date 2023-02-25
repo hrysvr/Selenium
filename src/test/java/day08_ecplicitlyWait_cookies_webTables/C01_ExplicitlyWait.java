@@ -25,7 +25,7 @@ public class C01_ExplicitlyWait {
             Ex[licitly Wait bir web element uzerinde gerceklesecek
             TEK BIR gorev icin tanimlanir
 
-            Bunun icin hem webelement tanimlanmali, hem de gorev
+            Bunun icin hem webelement hem de gorev tanimlanmali
 
          */
 
