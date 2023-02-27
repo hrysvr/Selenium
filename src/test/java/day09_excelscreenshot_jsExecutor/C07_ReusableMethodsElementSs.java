@@ -10,7 +10,8 @@ import utilities.TestBase;
 
 import java.io.IOException;
 
-public class C06_ReusableMethodsTumSayfa extends TestBase {
+public class C07_ReusableMethodsElementSs extends TestBase {
+
     @Test
     public void test01() throws IOException {
         // amazon anasayfaya gidin
@@ -22,18 +23,15 @@ public class C06_ReusableMethodsTumSayfa extends TestBase {
 
         // Sonuclarin Nutella icerdigini test edin
 
-        String actualSonucYazisi = driver.findElement(By.xpath("//h1[@class='a-size-base s-desktop-toolbar a-text-normal']"))
-                .getText();
+        WebElement sonucYaziElementi= driver.findElement(By.xpath("//h1[@class='a-size-base s-desktop-toolbar a-text-normal']"));
+        String actualSonucYazisi =sonucYaziElementi.getText();
 
         String expectedIcerik = "Nutella";
 
         Assert.assertTrue(actualSonucYazisi.contains(expectedIcerik));
 
-        // ve rapora eklenmek icin tum sayfanin fotografini cekin
+        // ve rapora eklenmek icin sonuc yazisi elementinin fotografini cekin
 
-        ReusableMethods.tumSayfaScreenshot(driver);
-
+        ReusableMethods.webelementScreenshot(sonucYaziElementi);
     }
-
-
 }
