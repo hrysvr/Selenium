@@ -1,9 +1,10 @@
 package day08_ecplicitlyWait_cookies_webTables;
 
 import org.junit.Test;
-import utilities.TestBaseClass;
 
-public class C06_WebTables extends TestBaseClass {
+import utilities.TestBase;
+
+public class C06_WebTables extends TestBase {
 
     @Test
     public void test01(){

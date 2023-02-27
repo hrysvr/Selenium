@@ -27,6 +27,7 @@ public class TestBaseClass {
 
     }
 
+
     public void bekle(int saniye){
 
         try {
@@ -36,3 +37,4 @@ public class TestBaseClass {
         }
     }
 }
+
