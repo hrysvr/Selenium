@@ -6,7 +6,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import utilities.TestBase;
 
-public class C08_JavascriptExecutorClick extends TestBase {
+public class C08_JavascriptExecutiorClick extends TestBase {
 
     @Test
     public void test01(){

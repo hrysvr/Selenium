@@ -1,4 +1,4 @@
-package practice;
+package AyseHocaPractice;
 
 import org.junit.*;
 

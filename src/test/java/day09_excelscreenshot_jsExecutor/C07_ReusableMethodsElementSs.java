@@ -33,5 +33,6 @@ public class C07_ReusableMethodsElementSs extends TestBase {
         // ve rapora eklenmek icin sonuc yazisi elementinin fotografini cekin
 
         ReusableMethods.webelementScreenshot(sonucYaziElementi);
+
     }
 }

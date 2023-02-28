@@ -38,6 +38,7 @@ public class C05_WebElementScreenshot extends TestBase {
 
         // 4- gecici dosyayi elementSs'e kopyalayalim
         FileUtils.copyFile(geciciDosya,elementSs);
+
     }
 }
 

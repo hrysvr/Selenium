@@ -49,6 +49,7 @@ public class ReusableMethods {
             FileUtils.copyFile(geciciDosya,elementSs);
         } catch (IOException e) {
 
+
         }
     }
 }

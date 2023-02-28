@@ -33,7 +33,6 @@ public class C06_ReusableMethodsTumSayfa extends TestBase {
 
         ReusableMethods.tumSayfaScreenshot(driver);
 
+
     }
-
-
 }

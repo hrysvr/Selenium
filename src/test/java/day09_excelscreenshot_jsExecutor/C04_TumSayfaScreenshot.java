@@ -41,5 +41,6 @@ public class C04_TumSayfaScreenshot extends TestBase {
         // 4- gecici dosyayi, tumSayfaSs dosyasina kopyalayalim
         FileUtils.copyFile(geciciResim,tumSayfaSs);
         bekle(3);
+
     }
 }

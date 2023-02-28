@@ -78,6 +78,7 @@ public class C02_ReadExcel {
         for (Map.Entry<String,String> eachEntry : ulkelerEntrySet
              ) {
             System.out.println(eachEntry);
+
         }
     }
 }
